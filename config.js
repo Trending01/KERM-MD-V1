@@ -19,13 +19,13 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "PUT YOUR SESSION ID HERE",
+SESSION_ID: process.env.SESSION_ID || "KERM-MD-V1~HQBmgaaD#ezjJS3Iegr1T2aOwEcJGn1gD5pBt26z_taWzlruLCIg",
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",// make true if you want auto reply on status
 // make true if you want auto reply on status
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS JUST NOW KERM-MD 👻*",// set the auto reply massage on status reply
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS JUST NOW (TRENDING-BOSS) 👻*",// set the auto reply massage on status reply
 // set the auto reply massage on status reply
-AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",// make true if you want auto reply on status
+AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",// make true if you want auto reply on status
 // make true if you want auto reply on status
 CUSTOM_REACT: process.env.CUSTOM_REACT || "true",// make this true for custum emoji react
 // make this true for custum emoji react
